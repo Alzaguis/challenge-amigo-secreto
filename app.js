@@ -7,8 +7,6 @@ function agregarAmigo() {
     let input = document.getElementById("amigo");
     let nombre = input.value.trim();  // Elimina espacios en blanco
 
-    console.log("Valor ingresado:", nombre);
-
     if (!nombre) {  // Verifica si está vacío
         alert("Por favor, inserte un nombre.");
         return;  // Detiene la ejecución aquí
